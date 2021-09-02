@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#128EE1"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/drawer_profile_image"
+        android:layout_margin="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/hotgirl1"/>
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lilly"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/drawer_profile_image"
+        />
+    <TextView
+        android:id="@+id/email"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lilly121@example.com"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_below="@+id/Username"
+        android:layout_toRightOf="@+id/drawer_profile_image"
+        />
+
+
+
+
+</RelativeLayout>
